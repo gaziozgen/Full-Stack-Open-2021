@@ -1,0 +1,29 @@
+GET http://localhost:3001/api/persons/61525ec230cf1b84af4b14e1
+
+###
+
+GET http://localhost:3001/api/persons
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "qwte", 
+  "number": "04023466"
+}
+
+###
+
+PUT http://localhost:3001/api/persons/615772fc97563e15283dbe03
+Content-Type: application/json
+
+{
+  "name": "asd", 
+  "number": "04016234234"
+}
+
+###
+
+DELETE http://localhost:3001/api/persons/615518472403acc74272f0eb
